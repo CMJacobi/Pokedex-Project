@@ -1,0 +1,54 @@
+Pokemon table will have columns:
+    From ./Data/FirstGenPokemon.csv:
+        Number
+        Name
+        Types
+        Type1
+        Type2
+        Height(m)
+        Weight(kg)
+        Male_Pct
+        Female_Pct
+        Capt_Rate
+        Exp_Points
+        Exp_Speed
+        Base_Total
+        HP
+        Attack
+        Defense
+        Special
+        Speed
+        Normal_Dmg
+        Fire_Dmg
+        Water_Dmg
+        Electric_Dmg
+        Grass_Dmg
+        Ice_Dmg
+        Fight_Dmg
+        Poison_Dmg
+        Ground_Dmg
+        Flying_Dmg
+        Psychic_Dmg
+        Bug_Dmg
+        Rock_Dmg
+        Ghost_Dmg
+        Dragon_Dmg
+        Evolutions
+        Legendary
+    From ./Data/Moves/[Name].csv
+        Moves //list or array of moves learnable by the pokemon
+    From ./Data/Sprites
+        Sprite link = ./Data/Sprites/[Name].png
+Move table will have columns:
+    From ./Data/MoveList.csv:
+        Name
+        Type
+        Cat.
+        Power
+        Acc.
+        PP
+        Description
+        Target
+        Effect
+        Change
+        Chance

@@ -1,0 +1,11 @@
+List of pokemon by pokedex number (single row per pokemon)
+For each row:
+    Pokedex number
+    Name
+    Sprite
+    Type(s)
+    HP
+    Attack
+    Defense
+    Special
+    Speed

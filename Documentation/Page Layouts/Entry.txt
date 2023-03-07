@@ -1,0 +1,5 @@
+Top Row: Two buttons - one for the current pokemon tab (right), other for pokedex homepage (left)
+Top Left: Pokemon sprite against a light gray background
+Top Center: Types and description (Pokedex entry from red/blue)
+Top Right: Stats (bars and numeric). Bars will need a color grade from red (small value) to green (large value)
+Middle-bottom: list of learnable moves with type/category/damage/accuracy/description

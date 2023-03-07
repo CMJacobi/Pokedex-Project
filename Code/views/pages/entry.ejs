@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container" background-color="red">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="jumbotron">
+      <h1><br><%= pokemon[0].Name %></h1>
+      <p>Pokedex #: <%= pokemon[0].Number %></p>
+      <p>Type(s): <%= pokemon[0].Type1 %>/<%= pokemon[0].Type2 %></p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="jumbotron">
+      <img src=<%= spritePath%>>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well">
+      <h3>Stats</h3>
+      <p>
+         <strong>HP:</strong> <%= pokemon[0].HP %><br>
+         <strong>Atk:</strong> <%= pokemon[0].Attack %><br>
+         <strong>Def:</strong> <%= pokemon[0].Defense %><br>
+         <strong>Spc:</strong> <%= pokemon[0].Special %><br>
+         <strong>Spd:</strong> <%= pokemon[0].Speed %><br>
+         <strong>BST:</strong> <%= pokemon[0].Base_Total %>
+      </p>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+<script src="../functions/req.js" async defer></script>
+</body>
+
+</html>

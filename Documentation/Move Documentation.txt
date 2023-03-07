@@ -1,0 +1,70 @@
+Moves are formatted as:
+Name: Name of the move
+Type: Type of the move. Determines whether or not STAB applies
+Cat.: Category of the move (Physical, Special, or Status)
+    Physical moves make contact and have damage determined by Atk stat
+    Defender mitigates damage with Def stat
+Power: Power of the move. More power = more damage
+Acc.: Accuracy of the move. The percentage of the time the move hits
+PP: How many times the move can be used in a battle
+Description: Text description of the move
+Target: The target of the move's secondary effect (Opp or Usr)
+Effect: The effect itself
+    Atk: Boosts attack stat. Effect occurs after damage is taken
+    Def: Boosts defense stat. Effect occurs after damge is taken
+    Spc: Boosts special stat. Effect occurs after damge is taken
+    Spd: Boosts speed stat. Effect occurs after damge is taken
+    Par: Paralyzes opponent. Halves speed and has a 33% chance of opponent failing a  move
+    Freeze: Freezes opponent. Opponent cannot move while it is frozen. Lasts 2-5 turns
+    Absorb: Recovers half of damage dealt to opponent (Up to half of opponent's max HP)
+    Multi: Hits multiple times - between the two numbers specified after the effect (usually 2-5)
+    Bide: Takes damage for next two turns, then deals double the damage taken to the opponent
+    Bind: Deals damage to the opponent for the next 4-5 turns
+    Confuse: Target becomes confused. For the next 2-5 turns, the target has a chance to deal damage to itself rather than its opponent
+    Conv: Changes user's type to that of its first move. Resets on switch out
+    Crit: Raises the user's crit stage by 1 for the move about to be used
+    Dig: 
+    Disable:
+    Evasion:
+    Recoil:
+    Exact:
+    Earthquake:
+    Burn:
+    OHKO:
+    Acc:
+    Permacrit:
+    Gust:
+    Haze:
+    HJK:
+    Recharge:
+    Sleep:
+    Leech:
+    Screen:
+    LowKick:
+    Metronome:
+    Mimic:
+    Mirror:
+    Mist:
+    Shade:
+    Petal:
+    Psywave:
+    Priority:
+    Rage:
+    Razor_wind:
+    Recover:
+    Reflect:
+    Rest:
+    Roar:
+    Toss:
+    Bash:
+    Sky_Attack:
+    Beam:
+    Boom:
+    Substitute:
+    Fang:
+    Thrash:
+    Transform:
+    Tri_Attack:
+    Twineedle:
+Change:
+Chance

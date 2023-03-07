@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type = "text/javascript">
+    
+    function navigate(string) {
+      const url = new URL('http://localhost:3000/entry?id='.concat(string.toString()))
+      console.log(url.href)
+      window.location.href=url.toString()
+    }
+    </script>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron col-sm-8">
+    <h1>Pokedex</h1>
+    <p>Welcome to the Pokedex page. Scroll down through the Pokemon <br>
+      and click on them to see their entries.</p>
+
+    <h2>Entries</h2>
+    <table>
+      <tr>
+        <th>Number</th>
+        <th>Name</th>
+        <th>Type(s)</th>
+        <th>BST</th>
+      </tr>
+      <% pokemon.forEach(pkn=> { %>
+        <tr>
+          <td><%= pkn.Number %></td>
+          <td><button onclick="navigate(<%= pkn.Number %>)"><%= pkn.Name %></button></td>
+          <td><%= pkn.Type1 %>/<%= pkn.Type2 %></td>
+          <td><%= pkn.Base_Total%></td>
+        </tr>
+      <% }); %>
+    </table>
+
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+</body>
+</html>

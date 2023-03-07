@@ -1,0 +1,9 @@
+Shows each pokemon:
+    Name
+    Sprite
+    Type(s)
+    4 Part column:
+        Move 1
+        Move 2
+        Move 3
+        Move 4
